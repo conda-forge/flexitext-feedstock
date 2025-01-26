@@ -1,5 +1,5 @@
 {% set name = "flexitext" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flexitext-{{ version }}.tar.gz
-  sha256: 9cd1acb7a1e3ac2ae49163b260c609ade37a4d7be580e16bab32ab33e0bf223f
+  sha256: 80ecf7ceab4aaba5f03e5e145e8ac67281721d3270900a144f5b9425f72ddea0
 
 build:
   noarch: python
